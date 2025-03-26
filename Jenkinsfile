@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools{
-        tool name: 'MavenNew', type: 'maven'
+        name: 'MavenNew', type: 'maven'
     }
     stages{
         stage('clone Repo') {

@@ -3,7 +3,7 @@ pipeline{
     tools{
         tool name: 'MavenNew', type: 'maven'
     }
-    Stages{
+    stages{
         stage('clone Repo') {
             steps{
               git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
